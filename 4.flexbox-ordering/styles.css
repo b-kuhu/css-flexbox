@@ -1,0 +1,28 @@
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+.box1 {background: blue;}
+.box2 {background: lightblue;}
+.box3 {background: blueviolet;}
+.box4{ background: yellowgreen;}
+.box5 {background: pink;}
+.box6 {background: green;}
+.box7 {background: violet;}
+.box8 {background: peru;}
+.box9 {background: brown;}
+.box10 {background: black;}
+
+.container{
+    display: flex;
+}
+.box3{
+    flex: 1;
+    order: -1;
+}
+.box7{
+    order : -2
+}

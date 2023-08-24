@@ -23,8 +23,9 @@
 
 .container{
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .box{
     width: 33.333333%
